@@ -8,7 +8,12 @@ I found out, by googling this [article](https://medium.com/@nicolezhu/ethernaut-
 
 I had to use [Remix](remix.ethereum.org) online editor for this level. The first issue I got was that the math library can't be found.
 
-Googling again, I found an issue [here](https://github.com/OpenZeppelin/openzeppelin-contracts/issues/1824) on the SafeMath's github repo that helped me resolved this blocker. I also had to change the Solidity version I was using to version 0.6.0. Doing this, issue of naming the constructor function same as the contract name in earlier version of Solidity showed up.
+Googling again, I found an issue [here](https://github.com/OpenZeppelin/openzeppelin-contracts/issues/1824) on the SafeMath's github repo that helped me resolved this blocker.
+
+By prefixing the import link with ```https://github.com/OpenZeppelin/``` resolved the _can't be found issue_.
+
+
+I also had to change the Solidity version I was using to version 0.6.0. Doing this, issue of naming the constructor function same as the contract name in earlier version of Solidity showed up.
 
 I only needed to **read the error message** to resolve the issue. I changed the name simply to ```constructor()``` and that was it.
 
