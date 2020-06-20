@@ -1,6 +1,6 @@
 # Fallout
 
-This challenge is just as the [Fallbacl challenge](https://github.com/wptechprodigy/ethernaut_500nigeriandev/blob/master/fallback/index.md) solved earlier.
+This challenge is just as the [Fallback challenge](https://github.com/wptechprodigy/ethernaut_500nigeriandev/blob/master/fallback/index.md) solved earlier.
 
 Claim the ownership of the contract.
 
