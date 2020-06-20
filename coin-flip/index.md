@@ -12,11 +12,16 @@ Googling again, I found an issue [here](https://github.com/OpenZeppelin/openzepp
 
 By prefixing the import link with ```https://github.com/OpenZeppelin/``` resolved the _can't be found issue_.
 
-
 I also had to change the Solidity version I was using to version 0.6.0. Doing this, issue of naming the constructor function same as the contract name in earlier version of Solidity showed up.
 
 I only needed to **read the error message** to resolve the issue. I changed the name simply to ```constructor()``` and that was it.
 
 Then ```block.blockhash()``` has also deprecated and it now just ```blockhash()```.
 
-My battery is almost out...I'll update my records later.
+So, I made a custom contract similar to the CoinFlip contract: ```hackCoinFlip```, followed the process in CoinFlip and ensure to always pass in the boolean state to always set ```bool side``` to **false**.
+
+I deployed the contract, ```hackCoinFlip```, 10 successful times to pass this stage.
+
+It's been really challenging and adventorous for me.
+
+On to the next challenge.
